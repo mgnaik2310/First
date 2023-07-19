@@ -24,7 +24,19 @@
     <ul id="items" class="list-group">
       <li class="list-group-item">Item 1</li>
       <li class="list-group-item">Item 2</li>
+const items = document.querySelectorAll('#items .list-group-item');
+if (items.length >= 2) {
+  items[1].style.color = 'green';
+}
+
       <li class="list-group-item">Item 3</li>
+const items = document.querySelectorAll('#items .list-group-item');
+items.forEach((item, index) => {
+  if (index % 2 !== 0) {
+    item.style.backgroundColor = 'green';
+  }
+});
+
       <li class="list-group-item">Item 4</li>
     </ul>
    </div>
