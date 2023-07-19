@@ -70,3 +70,23 @@
     </div>
 </body>
 </html>
+
+<ul id="items" class="list-group">
+  <li class="list-group-item">
+    Item 1
+    <button class="delete-button btn btn-danger">Delete</button>
+  </li>
+  <li class="list-group-item">
+    Item 2
+    <button class="delete-button btn btn-danger">Delete</button>
+  </li>
+  <li class="list-group-item">
+    Item 3
+    <button class="delete-button btn btn-danger">Delete</button>
+  </li>
+  <li class="list-group-item">
+    Item 4
+    <button class="delete-button btn btn-danger">Delete</button>
+  </li>
+</ul>
+
